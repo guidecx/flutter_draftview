@@ -70,7 +70,7 @@ class LinkBlock extends BaseBlock {
               context: context,
               builder: (c) => LinkCard(
                 link: data['url']['link'],
-                title: data['url']['title'],
+                title: 'Go to ' + data['url']['link'],
                 image: data['url']['image'],
                 summary: data['url']['summary'],
               ),
